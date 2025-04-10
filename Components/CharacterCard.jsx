@@ -11,7 +11,10 @@ return (
         <h3 className={styles.title}>
             {character.name}
         </h3>
-        <p>Essa é a página inicial</p>
+        <p>{character.status}</p>
+        <p>{character.species}</p>
+        <p>{character.type || "Sem tipo"}</p>
+        <p>{character.gender}</p>
     </div>
 )
 }
