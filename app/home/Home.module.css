@@ -83,12 +83,13 @@
 
 .buttonNav:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 114, 255, 0.3);
+    background: linear-gradient(90deg,rgba(95, 129, 168, 1) 0%, rgba(0, 191, 255, 1) 50%, rgba(212, 212, 212, 1) 100%); 
 }
 
 .buttonNav:active {
     transform: translateY(1px);
-    box-shadow: 0 2px 4px rgba(0, 114, 255, 0.2);
+    background: linear-gradient(90deg,rgba(95, 129, 168, 1) 0%, rgba(0, 191, 255, 1) 50%, rgba(212, 212, 212, 1) 100%); 
+
 }
 
 .buttonNav:disabled {
