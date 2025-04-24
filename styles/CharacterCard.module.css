@@ -15,8 +15,10 @@
 }
 
 .avatar {
-    width: 125px;
+    width: 225px;
     border-radius: 50%;
+    height: 15rem;
+    gap:0.5rem;
 }
 
 .title {
