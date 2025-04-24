@@ -73,12 +73,21 @@
     background-color: #c62828;
 }
 
-
+.navControls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
 
 .buttonNav {
-    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    background: linear-gradient(90deg,rgba(95, 129, 168, 1) 0%, rgba(0, 191, 255, 1) 50%, rgba(212, 212, 212, 1) 100%); 
     margin-bottom: 5rem;
     gap: 2rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10%;
 }
 
 .buttonNav:hover {
